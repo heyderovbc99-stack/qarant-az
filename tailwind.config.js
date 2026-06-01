@@ -4,17 +4,10 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        brand: {
-          dark: '#0f172a',  
-          blue: '#2563eb',  
-          green: '#16a34a', 
-        }
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
